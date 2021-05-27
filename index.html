@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Practica CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&display=swap" rel="stylesheet">
+</head>
+<header>
+  <nav> 
+    <div class="logo_space">
+      <a href="#" class="logo">Galery Responsive/Modal</a>
+    </div>
+    <div class="iconNav">
+      <i class="fas fa-bars" aria-hidden="true"></i>
+      <i class="fas fa-times"  aria-hidden="true" style="display: none"></i>
+    </div>
+    <ul>
+      <li><a href="#">Acerca</a></li>
+      <li><a href="#">Galeria</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+	<h3 class= "title-animal">FOTOGRAFIAS</h3>
+
+ <div id="fund-modal" class="fund-modal">
+    <span class="cerrar">X</span>
+    <img id="imgModal" class="modal-content" src="images/panda.jpg">
+  </div>	
+
+	<div class="polaroid">
+		<img id="FD1" src="images/panda.jpg" >
+		<p class="imgtexto">Para: </p>
+		<div class="lugar-texto">
+			<p>Animalito Panda</p>	
+		</div>		
+	</div>
+	
+	<div  class="polaroid">
+		<img id="FD2" src="images/leon.jpg">
+		<p class="imgtexto">Para: </p>
+		<div class="lugar-texto">
+			<p>Animalito Leon</p>	
+		</div>		
+	</div>
+	
+
+	<div class="polaroid">
+		<img id="FD3"  class ="squirrel-sp" src="images/squirrel.jpg">
+		<p class="imgtexto">Para: </p>
+		<div class="lugar-texto">
+			<p>Animalito Conejo</p>	
+		</div>		
+	
+	</div>
+		<div class="polaroid">
+		<img id="FD4" src="images/jack.jpg" >
+		<p class="imgtexto">Para: </p>
+		<div class="lugar-texto">
+			<p>Animalito Perro</p>	
+		</div>		
+	</div>
+  <script src="jquery.js"></script>
+  <script src="index.js"></script>
+ <script src="https://kit.fontawesome.com/5455495993.js" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
